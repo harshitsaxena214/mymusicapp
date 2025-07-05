@@ -1,0 +1,45 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"></stop>
+      <stop offset="25%" stop-color="#818cf8"></stop>
+      <stop offset="50%" stop-color="#c084fc"></stop>
+      <stop offset="75%" stop-color="#e879f9"></stop>
+      <stop offset="100%" stop-color="#22d3ee"></stop>
+    </linearGradient>
+
+    <!-- Subtle Glow -->
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#000" flood-opacity="0.2"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg)" rx="24"></rect>
+
+  <!-- Music Icons -->
+  <text x="50" y="70" font-size="36" fill="white">🎼</text>
+  <text x="520" y="90" font-size="36" fill="white">🎸</text>
+  <text x="60" y="360" font-size="32" fill="white">🎧</text>
+  <text x="500" y="340" font-size="32" fill="white">🎹</text>
+
+  <!-- Title with Black Text -->
+  <text x="50%" y="160" text-anchor="middle" font-size="36" fill="black" filter="url(#glow)" font-family="Verdana, sans-serif">
+    Limitless
+  </text>
+  <text x="50%" y="210" text-anchor="middle" font-size="36" fill="black" filter="url(#glow)" font-family="Verdana, sans-serif">
+    Learning
+  </text>
+  <text x="50%" y="260" text-anchor="middle" font-size="36" fill="black" filter="url(#glow)" font-family="Verdana, sans-serif">
+    Opportunities
+  </text>
+
+  <!-- Wave Line -->
+  <path d="M0,320 Q75,290 150,320 T300,320 T450,320 T600,320" stroke="#ffffff" stroke-width="3" fill="none" stroke-opacity="0.3"></path>
+
+  <!-- Sparkles -->
+  <circle cx="100" cy="100" r="3" fill="white" opacity="0.8"></circle>
+  <circle cx="550" cy="300" r="2" fill="white" opacity="0.5"></circle>
+  <circle cx="250" cy="60" r="2" fill="white" opacity="0.7"></circle>
+</svg>

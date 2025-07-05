@@ -22,10 +22,10 @@ function FeaturedCourses() {
     <div className="py-12 bg-gray-900">
         <div>
             <div className="text-center">
-                <h2 className="
+                <h2 className="text-2xl
                 md:text-2xl
                 font-semiboldtext-center text-teal-900">Featured Couses</h2>
-                <p className="mt-2 leading-8 font-extrabold text-white md:text-4xl">Learn With The Best</p>
+                <p className="mt-2 leading-8 font-extrabold text-3xl text-white md:text-4xl">Learn With The Best</p>
             </div>
         </div>
 
@@ -35,8 +35,8 @@ function FeaturedCourses() {
                 <div key={course.id} className="flex justify-center">
                   <BackgroundGradient className="flex flex-col max-w-sm rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full">
                     <div className="flex flex-col flex-grow items-center text-center p-4 sm:p-6">
-                        <p className="text-lg  sm:text-xl text-black dark:text-neutral-200 mb-2 mt-4">{course.title}</p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
+                        <p className="text-2xl  sm:text-3xl  dark:text-neutral-200 mb-2 mt-4  bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 bg-clip-text text-transparent dark:text-2xl flex-grow">{course.title}</p>
+                        <p className="text-sm text-neutral-600 dark:text-neutral-400 pb-4 flex-grow">{course.description}</p>
                         <Link href={`/courses/${course.slug}`}>Learn More
                         </Link>
                     </div>

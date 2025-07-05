@@ -25,7 +25,7 @@ const content = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img
-          src="/placeholder.svg?height=400&width=600"
+          src="/svgs/music2.svg?height=400&width=600"
           width={600}
           height={400}
           className="h-full w-full object-cover"
@@ -41,7 +41,7 @@ const content = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img
-          src="/placeholder.svg?height=400&width=600"
+          src="/svgs/music3.svg?height=400&width=600"
           width={600}
           height={400}
           className="h-full w-full object-cover"
@@ -57,7 +57,7 @@ const content = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img
-          src="/placeholder.svg?height=400&width=600"
+          src="/svgs/music4.svg?height=400&width=600"
           width={600}
           height={400}
           className="h-full w-full object-cover"
