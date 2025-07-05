@@ -1,4 +1,4 @@
-'use client'
+
 import courseData from "@/data/music_courses.json"
 import {Button} from "./ui/moving-border"
 import Link from "next/link"

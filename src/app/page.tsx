@@ -2,6 +2,8 @@ import { main } from "motion/react-client";
 import HeroSection from "@/components/HeroSection";
 import { Spotlight } from "@/components/ui/Spotlight";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import StickyScrollRevealDemo from "@/components/sticky-scroll-reveal-demo";
+import MusicTestimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
         fill="blue"
       />
        < HeroSection />
-      <FeaturedCourses></FeaturedCourses>
+      <FeaturedCourses />
+      <StickyScrollRevealDemo />
+      <MusicTestimonials />
     </main>
 
   );
