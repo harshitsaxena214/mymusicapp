@@ -3,8 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
  
-
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -17,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "My Music App",
-  description: "Discover original beats, soulful melodies, and the rhythm that moves you.",
+  description: "Discover original beats, soulful melodies, and the rhythm that moves you.", 
 };
 
 export default function RootLayout({
