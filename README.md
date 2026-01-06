@@ -1,4 +1,4 @@
-# 🎵 Music Academy Landing Page
+# 🎵 Music Academy App Landing Page
 
 A modern, visually rich, and responsive landing page built using **Next.js** and **Tailwind CSS**.  
 This project is created to showcase frontend development skills, focusing on layout design, responsive UI, and clean component structure.
@@ -12,7 +12,6 @@ The application currently runs locally in development mode and has not been depl
 - ⚡ Built with **Next.js (App Router)**
 - 🎨 Styled using **Tailwind CSS**
 - 📱 Fully responsive across devices
-- 🧭 Clean and minimal navigation bar
 - 🎧 Music-themed hero section with modern typography
 - 🧩 Reusable and well-structured components
 - 🌙 Dark, modern UI aesthetic
@@ -45,7 +44,7 @@ Follow the steps below to run the project on your local machine:
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/harshitsaxena214/mymusicapp.git
 ```
 
 ### Step 2: Navigate to the project directory
